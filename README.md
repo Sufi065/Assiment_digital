@@ -2,7 +2,7 @@
 
 A tool to test Model Context Protocol (MCP) server connections with modern dependency handling.
 
-## How to Run (Updated 2023)
+## How to Run
 
 ### Prerequisites
 - Node.js **v18 or higher** (essential for modern dependencies)
