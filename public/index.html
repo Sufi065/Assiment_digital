@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Server Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MCP Server Tester</h1>
+        <div class="tester-box">
+            <input type="text" id="serverUrl" 
+                   placeholder="Enter MCP Server URL (e.g., https://smithery.ai/server/@example)">
+            <button onclick="testServer()">Test Server</button>
+            
+            <div class="results">
+                <div class="status-box" id="connectivity">
+                    <h3>Connectivity</h3>
+                    <p class="status">Not tested</p>
+                </div>
+                <div class="status-box" id="functionality">
+                    <h3>Functionality</h3>
+                    <p class="status">Not tested</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
